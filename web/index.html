@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">TODO List</h1>
+        <form id="todo-form" class="my-4">
+            <div class="form-group">
+                <input type="text" id="title" class="form-control" placeholder="Title" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="description" class="form-control" placeholder="Description" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Add TODO</button>
+        </form>
+        <ul id="todo-list" class="list-group">
+            <!-- TODO items will be rendered here -->
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
