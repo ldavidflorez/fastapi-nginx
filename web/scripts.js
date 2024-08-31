@@ -1,4 +1,4 @@
-const apiUrl = 'http://127.0.0.1:8000/todos/';
+const apiUrl = 'https://dev-demos.lat/todos/';
 
 async function fetchTodos() {
     const response = await fetch(apiUrl);
